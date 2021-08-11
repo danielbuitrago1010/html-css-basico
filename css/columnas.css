@@ -1,0 +1,14 @@
+nav{
+background: orchid;
+}
+
+.columna{
+    background: aliceblue;
+    color: black;
+    padding:20px ;
+    width: 25%;
+
+}
+.padre{
+    display: flex;
+}

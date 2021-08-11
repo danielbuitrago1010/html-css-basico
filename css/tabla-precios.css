@@ -1,0 +1,77 @@
+.container{
+    margin: 0 auto;
+    width: 90%;
+    }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-weight: bold 700;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.precio{
+    font-size: 50px;
+    color: aqua;
+
+}
+.columna{
+background: white;
+color: black;
+border: 1px solid black;
+margin: 0px auto;
+padding: 10px;
+border-radius: 50px;
+box-shadow: -10px 10px 5px red;
+width:19%;
+box-sizing:border-box;
+}
+.btn-precio{
+    background: salmon;
+    display: block;
+    width: 100px;
+   text-align: center;
+    padding: 8px ;
+    margin-left: 25%;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+
+
+}
+.btn-precio:hover{
+background: chocolate;
+
+}
+
+.btn-precio:active{
+background:deepskyblue;
+
+}
+@media (max-width: 700px) {
+    .columna{
+        width: 45%;
+        margin-bottom: 100px;
+    }
+
+     }
+    @media (max-width: 500px) {
+        .columna{
+            width: 100%;
+            margin-bottom: 100px;
+        }
+    
+        
+        
+        }
+    
+
+
+    
